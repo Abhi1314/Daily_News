@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Main_container"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <TextView
+                android:textSize="22sp"
+                android:id="@+id/text_title"
+                android:textStyle="bold"
+                android:maxLines="3"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+            <TextView
+                android:textSize="18sp"
+                android:id="@+id/text_source"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/purple_500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/headline_image"
+            android:layout_weight="1"
+            android:src="@drawable/not_available_img"
+            android:layout_width="0dp"
+            android:scaleType="centerCrop"
+            android:layout_height="match_parent">
+
+        </ImageView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
