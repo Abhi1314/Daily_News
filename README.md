@@ -2,7 +2,7 @@
 This is Daily news app and its is develop in java and here i used to rest api.
 In this app i used retrofit library for gson convert and A type-safe HTTP client for Android and Java .
 picasso used for image and news api for news.
-In this you can search news and catergory wise u can read news.
+In this app you can search news and catergory wise u can read news.
 # For news api :
 https://newsapi.org
 # Screenshot:
